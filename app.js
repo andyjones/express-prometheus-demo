@@ -1,7 +1,6 @@
 'use strict';
 
 const express   = require('express'),
-      metrics   = require('prom-client'),
       indexCtrl = require('./controllers/index'),
       promHttp  = require('./middleware/prom-http');
 
